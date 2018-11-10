@@ -2,6 +2,9 @@
 #define Cmd_h
 
 #include "Arduino.h"
+
+#undef max
+#undef min
 #include "helper_functions.h"
 
 #include "Arguments/Arg.h"
